@@ -34,7 +34,3 @@ running one fold on Causal-TimeBank
 cd PPAT
 python PPAT_framework.py --device {CPU device} --run_mode train0 --stack_datapath "../data/ctb_stack10_123"  --dev_datapatg "../data/ctb_stack10_123/0/test.json"
 ```
-
-$$
-\alpha_{ij,k} ={\rm softmax}_{ij}({\rm atten}_{ij})=\frac{mask_{ij,k} {\rm exp}({\rm atten}_{ij,k})}{\sum_{z \in N^{-}_{ij}} mask_{ij,z} {\rm exp}({\rm atten}_{ij,z})}
-$$
