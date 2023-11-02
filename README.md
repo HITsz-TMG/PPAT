@@ -20,17 +20,17 @@ We use EventStoryLine(v0.9) and Causal-TimeBank. The data is in the ''data'' fol
 running cross-validation on EventStoryLine
 ```
 cd PPAT
-python PPAT_framework.py --device {CPU device} --run_mode stack5
+python PPAT_framework.py --device {GPU device} --run_mode stack5
 ```
 
 running one fold on EventStoryLine
 ```
 cd PPAT
-python PPAT_framework.py --device {CPU device} --run_mode train0
+python PPAT_framework.py --device {GPU device} --run_mode train0
 ```
 
 running one fold on Causal-TimeBank
 ```
 cd PPAT
-python PPAT_framework.py --device {CPU device} --run_mode train0 --stack_datapath "../data/ctb_stack10_123"  --dev_datapatg "../data/ctb_stack10_123/0/test.json"
+python PPAT_framework.py --device {GPU device} --run_mode train0 --stack_datapath "../data/ctb_stack10_123"  --dev_datapatg "../data/ctb_stack10_123/0/test.json"
 ```
