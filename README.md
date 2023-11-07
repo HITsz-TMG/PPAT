@@ -9,7 +9,18 @@ conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit
 pip install -r requirements.txt
 ```
 
-Download BERT-base from [here](https://huggingface.co/bert-base-uncased) and put it under "encoder/BERT-base/" folder.
+Download BERT-base from [here](https://huggingface.co/bert-base-uncased) and put it under **encoder/BERT-base/** folder.
+Editing the **vocab.txt** as following (adding &lt;t&gt; and &lt;/t&gt; as event marker tokens):
+```
+[PAD]
+<t>
+</t>
+[unused2]
+[unused3]
+[unused4]
+[unused5]
+...
+```
 
 ## Data
 
