@@ -25,6 +25,7 @@ Editing the **vocab.txt** as following (adding &lt;t&gt; and &lt;/t&gt; as event
 ## Data
 
 We use EventStoryLine(v0.9) and Causal-TimeBank. The data is in the ''data'' folder.
+The MAVEN-ERE data set can be found in [here](https://github.com/THU-KEG/MAVEN-ERE)
 
 ## Running
 
